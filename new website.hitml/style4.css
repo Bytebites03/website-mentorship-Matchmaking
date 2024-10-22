@@ -1,0 +1,125 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar Left */
+.sidebar-left {
+    background-color: #1a202c;
+    color: white;
+    width: 25%;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.who-to-follow h4 {
+    margin-bottom: 10px;
+}
+
+.who-to-follow ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.who-to-follow li {
+    padding: 5px 0;
+}
+
+/* Main Feed */
+.main-feed {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.create-post {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.create-post input {
+    width: 80%;
+    padding: 10px;
+}
+
+.create-post button {
+    padding: 10px 20px;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mentor Feed */
+#mentors-feed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.mentor-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mentor-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.mentor-card h3 {
+    margin: 10px 0 5px 0;
+}
+
+.mentor-card p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Sidebar Right */
+.sidebar-right {
+    background-color: #1a202c;
+    color: white;
+    width: 20%;
+    padding: 20px;
+}
+
+.sidebar-right h4 {
+    margin-bottom: 20px;
+}
+
+.sidebar-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-right li {
+    padding: 10px 0;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship Matchmaking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar-left">
+            <div class="profile">
+                <img src="https://via.placeholder.com/100" alt="Profile Picture">
+                <h3>Student Name</h3>
+                <p>Branch: Computer Science</p>
+                <p>Interest: AI, Web Development</p>
+                <a href="#">My Profile</a>
+            </div>
+
+            <div class="who-to-follow">
+                <h4>Suggested Mentors</h4>
+                <ul>
+                    <li>John Doe - AI Expert</li>
+                    <li>Jane Smith - Web Dev Specialist</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Feed Section -->
+        <main class="main-feed">
+            <div class="create-post">
+                <input type="text" placeholder="Search Mentors by Interest">
+                <button id="search-mentors">Search</button>
+            </div>
+
+            <div id="mentors-feed">
+                <!-- Mentor Cards will be dynamically added here -->
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar-right">
+            <h4>Trending Interests</h4>
+            <ul>
+                <li>AI and Machine Learning</li>
+                <li>Web Development</li>
+                <li>Data Science</li>
+            </ul>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
